@@ -13,6 +13,14 @@ def print_2n(n):
     for j in range(n):
         print(j)
 
+my_list =[1,2,3,'a',4]
+my_list.pop(2)  # reindexing
+my_list.insert(1,10)
+
+
+
+
+
 # o(n^2)
 def print_nn(n):
     for i in range(n):
